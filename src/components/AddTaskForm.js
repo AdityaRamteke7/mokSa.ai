@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { TaskContext } from "../context/TaskContext";
-import "./AddTaskForm.css"; // Include CSS file
+import "./AddTaskForm.css"; 
 
 const AddTaskForm = () => {
   const { addTask, columns } = useContext(TaskContext);

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Draggable } from 'react-beautiful-dnd';
-import './TaskItem.css'; // Include CSS file
+import React from "react";
+import { Draggable } from "react-beautiful-dnd";
+import "./TaskItem.css";
 
 const TaskItem = ({ task, index }) => {
   return (

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { TaskContext } from '../context/TaskContext';
 import TaskItem from './TaskItem';
 import { Droppable } from 'react-beautiful-dnd';
-import './TaskColumn.css'; // Include CSS file
+import './TaskColumn.css'; 
 
 const TaskColumn = ({ column }) => {
   const { tasks } = useContext(TaskContext);
