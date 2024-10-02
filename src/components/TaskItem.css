@@ -16,3 +16,19 @@
     font-size: 14px;
     color: #6b7280;
 }
+
+
+@media (max-width: 640px) {
+    .task-item {
+        padding: 12px;
+    }
+
+    .task-title {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .task-description {
+        font-size: 12px;
+    }
+}
